@@ -1,0 +1,167 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size:  5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+p {
+    line-height: 2;
+    color: darkslategray; 
+}
+
+hr {
+    border-color: powderblue;
+    border-style: dotted none none;
+    border-width: 7px;
+    width: 5%;
+    padding: 50px 0;
+}
+
+a {
+    color: #11999E;
+}
+
+/* 16px = 100% = 1em */
+/************************** TOP CONTAINER *******************************/
+
+.top-container {
+    background-color: #BFEAF5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 25px;
+    width: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+    width: 200px;
+}
+
+.mountain {
+    position: relative;
+    top: 65px;
+}
+
+/************************** MIDDLE CONTAINER *******************************/
+
+.self-introduction {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.my-photo {
+    width: 20%;
+}
+.profile {
+    font-size: large;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.skills-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.design-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.develop-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.button {
+    background-color: #66BFBF;
+    border-radius: 8px;
+    position: relative;
+    top: 30px;
+    padding: 8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #78cfcf;
+}
+
+
+/************************** BOTTOM CONTAINER *******************************/
+
+.bottom-container {
+    background-color: #BFEAF5;
+    position: relative;
+    padding-top: 50px;
+}
+
+.social-icon {
+    width: 40px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.social-icon:hover {
+    border-style: solid;
+    border-color: #66BFBF;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.copyright-text {
+    color: grey;
+    opacity: 80%;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 20px;
+    padding-top: 40px;
+}
+
+
+
+
+
